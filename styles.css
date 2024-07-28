@@ -265,6 +265,29 @@ button:hover {
     font-size: 1.1em; /* Aumenta leggermente la dimensione del testo */
 }
 
+footer {
+	text-align: right;
+	max-width: 1200px;
+	width: 90%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.github-link {
+  	font-size: 0.8em;
+  	text-align: right;
+  	float: right;
+}
+
+.github-link a {
+  	color: #333333;
+  	text-decoration: none;
+}
+
+.github-link a:hover {
+	text-decoration: underline;
+}
+
 #contenitorebutton {
 	text-align: center;
 	align-items: center;
