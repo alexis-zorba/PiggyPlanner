@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Manager | Gestionale di finanza personale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="input">
+            <div id="settings">
+                <select id="language">
+                    <option value="it">Italiano</option>
+                    <option value="en">English</option>
+                </select>
+                <select id="currency">
+                    <option value="EUR">EUR (€)</option>
+                    <option value="USD">USD ($)</option>
+                    <option value="CNY">CNY (¥)</option>
+                </select>
+                <select id="theme">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="colorful">Colorful</option>
+                    <option value="serious">Serious</option>
+                    <option value="professional">Professional</option>
+                    <option value="casual">Casual</option>
+                    <option value="elegance">Elegance</option>
+                    <option value="minimal">Minimal</option>
+                </select>
+            </div>
+            <h2 id="settings-title">Impostazioni</h2>
+            <form id="form">
+                <table>
+                    <tr>
+                        <th id="initial-balance-label">Cassa iniziale</th>
+                        <th id="duration-label">Durata (mesi)</th>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="cassa-iniziale" value="10000"></td>
+                        <td><input type="number" id="durata" value="60"></td>
+                    </tr>
+                </table>
+                
+                <h3 id="income-title">Entrate</h3>
+                <table id="entrate">
+                    <tr>
+                        <th id="category-label">Categoria</th>
+                        <th id="amount-label">Importo</th>
+                        <th id="frequency-label">Frequenza</th>
+                        <th id="start-month-label">Mese di inizio</th>
+                    </tr>
+                </table>
+                
+                <h3 id="expenses-title">Spese</h3>
+                <table id="spese">
+                    <tr>
+                        <th id="category-label-expenses">Categoria</th>
+                        <th id="amount-label-expenses">Importo</th>
+                        <th id="frequency-label-expenses">Frequenza</th>
+                        <th id="start-month-label-expenses">Mese di inizio</th>
+                    </tr>
+                </table>
+            </form>
+			<div id="contenitorebutton">
+				<button id="calcola">Calcola</button>
+			</div>
+        </section>
+        
+        <section id="output">
+            <h2 id="results-title">Risultati</h2>
+            <select id="chart-type">
+                <option value="saldoCumulato">Saldo cumulato</option>
+                <option value="ricaviMensili">Entrate mensili</option>
+                <option value="costiMensili">Costi mensili</option>
+                <option value="margineMensile">Margine mensile</option>
+            </select>
+            <div id="grafico"></div>
+            <div id="analisi">
+                <div><span id="final-balance-label">Saldo finale</span>: <span id="saldo-finale"></span></div>
+                <div><span id="max-exposure-label">Esposizione massima</span>: <span id="esposizione-massima"></span></div>
+                <div><span id="max-peak-label">Picco massimo</span>: <span id="picco-massimo"></span></div>
+                <div><span id="total-income-label">Totale entrate</span>: <span id="totale-entrate"></span></div>
+                <div><span id="total-expenses-label">Totale uscite</span>: <span id="totale-uscite"></span></div>
+                <div><span id="savings-label">Risparmio</span>: <span id="risparmio"></span></div>
+            </div>
+            <h3 id="expense-analysis-title">Analisi delle spese medie mensili per categoria</h3>
+            <div id="analisi-spese"></div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="scripts/setup.js"></script>
+    <script src="scripts/translations.js"></script>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/chart.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
