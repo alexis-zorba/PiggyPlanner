@@ -17,15 +17,10 @@ You can use try it here: https://piggyplanner.netlify.app/
 ### Prerequisites
 
 - A modern web browser (Chrome, Firefox, Safari, or Edge recommended)
-- Internet connection (for initial load only; the app works offline once loaded)
 
 ### Installation
 
-1. Clone the repository:
-git clone https://github.com/yourusername/piggy-planner.git
-Copy2. Navigate to the project directory:
-cd piggy-planner
-Copy3. Open `index.html` in your web browser.
+PiggyPlanner is only one html portable file! 
 
 ## Usage
 
