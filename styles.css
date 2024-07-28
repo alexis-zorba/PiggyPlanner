@@ -266,8 +266,7 @@ button:hover {
 }
 
 footer {
-	text-align: right;
-	max-width: 1200px;
+	text-align: center;
 	width: 90%;
 	padding: 10px;
 	box-sizing: border-box;
@@ -275,8 +274,8 @@ footer {
 
 .github-link {
   	font-size: 0.8em;
-  	text-align: right;
-  	float: right;
+  	text-align: center;
+  	float: center;
 }
 
 .github-link a {
