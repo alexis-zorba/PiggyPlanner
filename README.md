@@ -20,7 +20,7 @@ You can use try it here: https://piggyplanner.netlify.app/
 
 ### Installation
 
-PiggyPlanner is only one html portable file! 
+Download the directory and open the index.html file, that's it. 
 
 ## Usage
 
