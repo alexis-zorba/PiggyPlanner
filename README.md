@@ -1,5 +1,7 @@
 "Piggy Planner: Simple Financial Forecasting" is a user-friendly web application designed to simplify personal financial planning and forecasting. This intuitive tool allows users to input their income and expenses with various frequencies and start dates, providing a comprehensive view of their financial future. With features like cumulative balance tracking, monthly income and expense analysis, and category-based spending breakdowns, Piggy Planner offers valuable insights into users' financial health. The application's responsive design, multiple language support, and customizable themes ensure a seamless experience across devices and user preferences. Whether you're a financial novice or a seasoned planner, Piggy Planner makes it easy to visualize your financial journey and make informed decisions about your money.
 
+You can use try it here: https://piggyplanner.netlify.app/
+
 ## Features
 
 - **Easy Input**: Add income and expenses with customizable categories, amounts, frequencies, and start dates.
@@ -41,6 +43,12 @@ Copy3. Open `index.html` in your web browser.
 
 ## Contact
 
-For support or queries, please open an issue on this GitHub repository or contact [your contact information].
+For support or queries, please open an issue on this GitHub repository
+
+## ToDo 
+
+Save csv with yur data
+Export monthly analisys
+Load default configuration
 
 Happy Planning with Piggy Planner!
